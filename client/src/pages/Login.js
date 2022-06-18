@@ -16,7 +16,7 @@ function Register() {
       navigate('/home')
     } catch (error) {
       setLoading(false)
-      message.error("OPPS Login failed");
+      message.error("Login failed!!");
     }
   };
 
