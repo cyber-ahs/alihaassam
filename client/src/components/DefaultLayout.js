@@ -27,7 +27,7 @@ function DefaultLayout(props) {
   return (
     <div className="layout">
       <div className="header">
-        <h1 onClick={()=>navigate('/home')} style={{cursor:'pointer'}}>SHEY CV</h1>
+        <h1 onClick={()=>navigate('/home')} style={{cursor:'pointer'}}>Free Resume</h1>
         <Dropdown overlay={menu} placement="bottomLeft">
           <Button icon={<UserOutlined />}>{user.username}</Button>
         </Dropdown>
